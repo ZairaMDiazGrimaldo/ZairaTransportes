@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+h6 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #FFF;,
+
+}
+#menu {
+	background-color: #000;
+	padding-left: 80px;
+	height: 250px;
+	padding-top: 25px;
+}
+#contenedor {
+	padding: 0px;
+	width: 1345px;
+	height: 1200px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#cuerpo {
+	height: 900px;
+	background-color: #FC3;
+	margin: 0px;
+	padding: 0;
+	
+}
+#pie {
+	background-color: #000;
+	height: 100px;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+h1 {
+	color: #000;
+	font-family: 'Bebas Neue', cursive;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60;
+	bottom:40px;
+	right:40px;
+	background-color:#060;
+	color:#FFF;
+	border-radius:60px;
+	text-align:center;
+	font-size:45px;
+	box-shadow:2px 2px 3px #999999;
+	z-index:100;
+}
+.float:hover {
+	text-decoration:none;
+	color:#060;
+	background-color:#FFF;
+}
+img logo {
+	height: 200px;
+	width: 200px;
+	cursor: pointer;
+	transition-property:all;
+	transition-duration: 1s;
+}
+img logo:hover {
+	transform:translate(200px,5px);
+}
